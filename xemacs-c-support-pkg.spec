@@ -3,7 +3,7 @@ Summary(pl):	Podstawowe dodatki do edycji kodu w C
 Name:		xemacs-c-support-pkg
 %define 	srcname	c-support
 Version:	1.18
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
