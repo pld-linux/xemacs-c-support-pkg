@@ -2,7 +2,7 @@ Summary:	Basic single-file add-ons for editing C code
 Summary(pl):	Basic single-file add-ons for editing C code
 Name:		xemacs-c-support-pkg
 %define 	srcname	c-support
-Version:	1.14
+Version:	1.16
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
