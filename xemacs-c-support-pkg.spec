@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Basic single-file add-ons for editing C code.
 
-%description -l pl 
+%description -l pl
 Podstawowe dodatki do edycji kodu w C.
 
 %prep
@@ -30,13 +30,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/c-support/ChangeLog 
+gzip -9nf lisp/c-support/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/c-support/ChangeLog.gz 
+%doc lisp/c-support/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
