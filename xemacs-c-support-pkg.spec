@@ -1,11 +1,12 @@
 Summary:	Basic single-file add-ons for editing C code
-Summary(pl):	Basic single-file add-ons for editing C code
+Summary(pl):	Podstawowe dodatki do edycji kodu w C
 Name:		xemacs-c-support-pkg
 %define 	srcname	c-support
 Version:	1.16
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -17,8 +18,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Basic single-file add-ons for editing C code.
 
 %description -l pl 
+Podstawowe dodatki do edycji kodu w C.
 
 %prep
 %setup -q -c
