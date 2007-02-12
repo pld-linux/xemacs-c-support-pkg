@@ -1,5 +1,5 @@
 Summary:	Basic single-file add-ons for editing C code
-Summary(pl):	Podstawowe dodatki do edycji kodu w C
+Summary(pl.UTF-8):   Podstawowe dodatki do edycji kodu w C
 Name:		xemacs-c-support-pkg
 %define 	srcname	c-support
 Version:	1.22
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Basic single-file add-ons for editing C code.
 
-%description -l pl
+%description -l pl.UTF-8
 Podstawowe dodatki do edycji kodu w C.
 
 %prep
