@@ -6,7 +6,7 @@ Version:	1.22
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 # Source0-md5:	972b0abd7158053f28a2c66c62ce0270
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
