@@ -2,12 +2,12 @@ Summary:	Basic single-file add-ons for editing C code
 Summary(pl.UTF-8):	Podstawowe dodatki do edycji kodu w C
 Name:		xemacs-c-support-pkg
 %define 	srcname	c-support
-Version:	1.22
-Release:	2
+Version:	1.24
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	972b0abd7158053f28a2c66c62ce0270
+# Source0-md5:	f60b46ed4078e6eda56fcb5f600f40a4
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
